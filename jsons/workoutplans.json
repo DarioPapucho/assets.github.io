@@ -7,6 +7,7 @@
         "description": "Plan perfecto para personas que están comenzando su viaje fitness",
         "exercises": [
           {
+            "id": "0001",
             "name": "Press de Banca",
             "description": "Ejercicio básico para pecho",
             "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
@@ -16,6 +17,7 @@
             "restTime": "90 segundos"
           },
           {
+            "id": "0002",
             "name": "Sentadillas",
             "description": "Ejercicio fundamental para piernas",
             "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
@@ -33,6 +35,7 @@
         "description": "Plan para personas con experiencia básica en el gimnasio",
         "exercises": [
           {
+            "id": "0003",
             "name": "Press Militar",
             "description": "Ejercicio compuesto para hombros",
             "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
@@ -50,6 +53,7 @@
         "description": "Plan intensivo para atletas experimentados",
         "exercises": [
           {
+            "id": "0004",
             "name": "Peso Muerto",
             "description": "Ejercicio compuesto para espalda y piernas",
             "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
@@ -67,6 +71,7 @@
         "description": "Plan de alto rendimiento para atletas profesionales",
         "exercises": [
           {
+            "id": "0005",
             "name": "Clean and Jerk",
             "description": "Movimiento olímpico complejo",
             "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
