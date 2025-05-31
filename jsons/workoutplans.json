@@ -1,0 +1,81 @@
+{
+    "workoutPlans": [
+      {
+        "level": "principiante",
+        "focusRoutine": "Entrenamiento Básico",
+        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+        "description": "Plan perfecto para personas que están comenzando su viaje fitness",
+        "exercises": [
+          {
+            "name": "Press de Banca",
+            "description": "Ejercicio básico para pecho",
+            "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
+            "focusRoutine": "Pecho",
+            "sets": 3,
+            "reps": "12-15",
+            "restTime": "90 segundos"
+          },
+          {
+            "name": "Sentadillas",
+            "description": "Ejercicio fundamental para piernas",
+            "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
+            "focusRoutine": "Piernas",
+            "sets": 3,
+            "reps": "12-15",
+            "restTime": "90 segundos"
+          }
+        ]
+      },
+      {
+        "level": "intermedio",
+        "focusRoutine": "Entrenamiento Intermedio",
+        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+        "description": "Plan para personas con experiencia básica en el gimnasio",
+        "exercises": [
+          {
+            "name": "Press Militar",
+            "description": "Ejercicio compuesto para hombros",
+            "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
+            "focusRoutine": "Hombros",
+            "sets": 4,
+            "reps": "10-12",
+            "restTime": "60 segundos"
+          }
+        ]
+      },
+      {
+        "level": "avanzado",
+        "focusRoutine": "Entrenamiento Avanzado",
+        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+        "description": "Plan intensivo para atletas experimentados",
+        "exercises": [
+          {
+            "name": "Peso Muerto",
+            "description": "Ejercicio compuesto para espalda y piernas",
+            "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
+            "focusRoutine": "Espalda/Piernas",
+            "sets": 5,
+            "reps": "5-8",
+            "restTime": "120 segundos"
+          }
+        ]
+      },
+      {
+        "level": "profesional",
+        "focusRoutine": "Entrenamiento Elite",
+        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+        "description": "Plan de alto rendimiento para atletas profesionales",
+        "exercises": [
+          {
+            "name": "Clean and Jerk",
+            "description": "Movimiento olímpico complejo",
+            "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
+            "focusRoutine": "Full Body",
+            "sets": 6,
+            "reps": "3-5",
+            "restTime": "180 segundos"
+          }
+        ]
+      }
+    ]
+  }
