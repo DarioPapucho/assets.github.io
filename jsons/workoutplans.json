@@ -1,104 +1,86 @@
 {
-  "machines": [
-    {
-      "machineId": "M001",
-      "machineName": "Banco de Press",
-      "machineImage": "https://example.com/machine1.jpg",
-      "exercises": [
-        {
-          "id": "E001",
-          "name": "Press de Banca",
-          "description": "Ejercicio clásico para pecho",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
-          "variations": [
-            {
-              "level": "principiante",
-              "focusRoutine": "Pecho",
-              "sets": 3,
-              "reps": "12-15",
-              "restTime": "90 segundos"
-            },
-            {
-              "level": "intermedio",
-              "focusRoutine": "Pecho",
-              "sets": 4,
-              "reps": "8-12",
-              "restTime": "60 segundos"
-            }
-          ]
-        },
-        {
-          "id": "E002",
-          "name": "Press de Banca Inclinado",
-          "description": "Variación para pecho superior",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/5.mp4",
-          "variations": [
-            {
-              "level": "intermedio",
-              "focusRoutine": "Pecho Superior",
-              "sets": 3,
-              "reps": "10-12",
-              "restTime": "90 segundos"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "machineId": "M002",
-      "machineName": "Máquina Smith",
-      "machineImage": "https://example.com/machine2.jpg",
-      "exercises": [
-        {
-          "id": "E003",
-          "name": "Sentadillas en Smith",
-          "description": "Ejercicio para piernas",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/6.mp4",
-          "variations": [
-            {
-              "level": "principiante",
-              "focusRoutine": "Piernas",
-              "sets": 3,
-              "reps": "12-15",
-              "restTime": "90 segundos"
-            }
-          ]
-        },
-        {
-          "id": "E004",
-          "name": "Press Militar en Smith",
-          "description": "Ejercicio para hombros",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/7.mp4",
-          "variations": [
-            {
-              "level": "intermedio",
-              "focusRoutine": "Hombros",
-              "sets": 4,
-              "reps": "8-12",
-              "restTime": "60 segundos"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "workoutPlans": [
     {
-      "name": "Ejercicios para pecho",
-      "focus": "Pecho",
-      "exerciseIds": ["E001", "E002"],
-      "machines": ["M001"]
+      "level": "principiante",
+      "focusRoutine": "Entrenamiento Básico",
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "description": "Plan perfecto para personas que están comenzando su viaje fitness",
+      "exercises": [
+        {
+          "id": "0001",
+          "name": "Press de Banca",
+          "description": "Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit. Etiam eu pharetra purus, quis facilisis justo. Duis pellentesque, magna quis condimentum rhoncus, arcu est venenatis enim, eget euismod lectus dolor ut mi. Cras et tellus efficitur, pulvinar odio non, mollis turpis. Aenean rhoncus urna in lectus placerat blandit. Maecenas lobortis sollicitudin dui non blandit. Ut aliquam quam sit amet quam semper, non venenatis nisl cursus. Cras bibendum justo non iaculis maximus.",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
+          "focusRoutine": "Pecho",
+          "sets": 3,
+          "reps": "12-15",
+          "restTime": "90 segundos"
+        },
+        {
+          "id": "0002",
+          "name": "Sentadillas",
+          "description": "Ejercicio fundamental para piernas",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/5.mp4",
+          "focusRoutine": "Piernas",
+          "sets": 3,
+          "reps": "12-15",
+          "restTime": "90 segundos"
+        }
+      ]
     },
     {
-      "name": "Ejercicios para piernas",
-      "focus": "Piernas",
-      "exerciseIds": ["E003"],
-      "machines": ["M001"]
+      "level": "intermedio",
+      "focusRoutine": "Entrenamiento Intermedio",
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "description": "Plan para personas con experiencia básica en el gimnasio",
+      "exercises": [
+        {
+          "id": "0003",
+          "name": "Press Militar",
+          "description": "Ejercicio compuesto para hombros",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/6.mp4",
+          "focusRoutine": "Hombros",
+          "sets": 4,
+          "reps": "10-12",
+          "restTime": "60 segundos"
+        }
+      ]
     },
     {
-      "name": "Ejercicios para pecho",
-      "focus": "Hombros",
-      "exerciseIds": ["E001"]
+      "level": "avanzado",
+      "focusRoutine": "Entrenamiento Avanzado",
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "description": "Plan intensivo para atletas experimentados",
+      "exercises": [
+        {
+          "id": "0004",
+          "name": "Peso Muerto",
+          "description": "Ejercicio compuesto para espalda y piernas",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/7.mp4",
+          "focusRoutine": "Espalda/Piernas",
+          "sets": 5,
+          "reps": "5-8",
+          "restTime": "120 segundos"
+        }
+      ]
+    },
+    {
+      "level": "profesional",
+      "focusRoutine": "Entrenamiento Elite",
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "description": "Plan de alto rendimiento para atletas profesionales",
+      "exercises": [
+        {
+          "id": "0005",
+          "name": "Clean and Jerk",
+          "description": "Movimiento olímpico complejo",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/8.mp4",
+          "focusRoutine": "Full Body",
+          "sets": 6,
+          "reps": "3-5",
+          "restTime": "180 segundos"
+        }
+      ]
     }
   ]
 }
