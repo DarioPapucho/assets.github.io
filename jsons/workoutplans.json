@@ -9,22 +9,28 @@
         {
           "id": "0001",
           "name": "Press de Banca",
-          "description": "Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit. Etiam eu pharetra purus, quis facilisis justo. Duis pellentesque, magna quis condimentum rhoncus, arcu est venenatis enim, eget euismod lectus dolor ut mi. Cras et tellus efficitur, pulvinar odio non, mollis turpis. Aenean rhoncus urna in lectus placerat blandit. Maecenas lobortis sollicitudin dui non blandit. Ut aliquam quam sit amet quam semper, non venenatis nisl cursus. Cras bibendum justo non iaculis maximus.",
+          "level": "principiante",
+          "description": "Ejercicio fundamental para piernas de press banca",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/4.mp4",
           "focusRoutine": "Pecho",
           "sets": 3,
           "reps": "12-15",
-          "restTime": "90 segundos"
+          "restTime": "90 segundos",
+          "machineId": "M001",
+          "machineName": "Banco de Press"
         },
         {
           "id": "0002",
           "name": "Sentadillas",
+          "level": "principiante",
           "description": "Ejercicio fundamental para piernas",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/5.mp4",
           "focusRoutine": "Piernas",
           "sets": 3,
           "reps": "12-15",
-          "restTime": "90 segundos"
+          "restTime": "90 segundos",
+          "machineId": "M002",
+          "machineName": "Jaula de Sentadillas"
         }
       ]
     },
@@ -37,12 +43,15 @@
         {
           "id": "0003",
           "name": "Press Militar",
+          "level": "intermedio",
           "description": "Ejercicio compuesto para hombros",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/6.mp4",
           "focusRoutine": "Hombros",
           "sets": 4,
           "reps": "10-12",
-          "restTime": "60 segundos"
+          "restTime": "60 segundos",
+          "machineId": "M003",
+          "machineName": "Banco Ajustable con Barra"
         }
       ]
     },
@@ -55,12 +64,15 @@
         {
           "id": "0004",
           "name": "Peso Muerto",
+          "level": "avanzado",
           "description": "Ejercicio compuesto para espalda y piernas",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/7.mp4",
           "focusRoutine": "Espalda/Piernas",
           "sets": 5,
           "reps": "5-8",
-          "restTime": "120 segundos"
+          "restTime": "120 segundos",
+          "machineId": "M002",
+          "machineName": "Jaula de Sentadillas"
         }
       ]
     },
@@ -72,13 +84,16 @@
       "exercises": [
         {
           "id": "0005",
+          "level": "profesional",
           "name": "Clean and Jerk",
           "description": "Movimiento olímpico complejo",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/8.mp4",
           "focusRoutine": "Full Body",
           "sets": 6,
           "reps": "3-5",
-          "restTime": "180 segundos"
+          "restTime": "180 segundos",
+          "machineId": "M004",
+          "machineName": "Plataforma de Halterofilia"
         }
       ]
     }
