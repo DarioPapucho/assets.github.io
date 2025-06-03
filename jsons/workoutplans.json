@@ -81,5 +81,24 @@
         }
       ]
     }
+  ],
+  "workoutPlans": [
+    {
+      "name": "Ejercicios para pecho",
+      "focus": "Pecho",
+      "exerciseIds": ["E001", "E002"],
+      "machines": ["M001"]
+    },
+    {
+      "name": "Ejercicios para piernas",
+      "focus": "Piernas",
+      "exerciseIds": ["E003"],
+      "machines": ["M001"]
+    },
+    {
+      "name": "Ejercicios para pecho",
+      "focus": "Hombros",
+      "exerciseIds": ["E001"]
+    }
   ]
 }
