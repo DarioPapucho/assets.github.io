@@ -50,7 +50,7 @@
           "sets": 4,
           "reps": "10-12",
           "restTime": "60 segundos",
-          "machineId": "M003",
+          "machineId": "M001",
           "machineName": "Banco Ajustable con Barra"
         }
       ]
@@ -92,7 +92,7 @@
           "sets": 6,
           "reps": "3-5",
           "restTime": "180 segundos",
-          "machineId": "M004",
+          "machineId": "M001",
           "machineName": "Plataforma de Halterofilia"
         }
       ]
