@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de PDF</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Divisor de PDF</h1>
+            <p>Divide tu PDF en las secciones que necesites</p>
+        </header>
+
+        <main>
+            <!-- Sección de carga de archivo -->
+            <section class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">📄</div>
+                    <h3>Selecciona o arrastra tu archivo PDF</h3>
+                    <p>Máximo 1GB - Para archivos grandes (>100MB) el procesamiento puede tomar varios minutos</p>
+                    <input type="file" id="pdfInput" accept=".pdf" hidden>
+                    <button class="btn btn-primary" onclick="document.getElementById('pdfInput').click()">
+                        Seleccionar PDF
+                    </button>
+                </div>
+            </section>
+
+            <!-- Información del PDF cargado -->
+            <section class="pdf-info" id="pdfInfo" style="display: none;">
+                <div class="info-card">
+                    <h3>PDF Cargado</h3>
+                    <p><strong>Nombre:</strong> <span id="fileName"></span></p>
+                    <p><strong>Total de páginas:</strong> <span id="totalPages"></span></p>
+                </div>
+            </section>
+
+            <!-- Sección para definir divisiones -->
+            <section class="split-section" id="splitSection" style="display: none;">
+                <h3>Define las secciones</h3>
+                <div class="sections-container" id="sectionsContainer">
+                    <!-- Las secciones se agregarán dinámicamente -->
+                </div>
+                <button class="btn btn-secondary" id="addSectionBtn">+ Agregar Sección</button>
+            </section>
+
+            <!-- Botones de acción -->
+            <section class="actions" id="actionsSection" style="display: none;">
+                <button class="btn btn-success" id="splitBtn">Dividir PDF</button>
+                <button class="btn btn-danger" id="clearBtn">Limpiar Todo</button>
+            </section>
+
+            <!-- Sección de resultados -->
+            <section class="results" id="resultsSection" style="display: none;">
+                <h3>Archivos Generados</h3>
+                <div class="results-container" id="resultsContainer">
+                    <!-- Los enlaces de descarga aparecerán aquí -->
+                </div>
+            </section>
+
+            <!-- Barra de progreso -->
+            <div class="progress-container" id="progressContainer" style="display: none;">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p id="progressText">Procesando...</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal de error -->
+    <div class="modal" id="errorModal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h3>Error</h3>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
