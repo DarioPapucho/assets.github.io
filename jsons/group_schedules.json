@@ -1,0 +1,64 @@
+{
+    "group_schedules": {
+      "monday": {
+        "morning_shift": [
+          { "time": "08:00 a 09:00", "discipline": "ZUMBA", "instructor": "JUAN PABLO" },
+          { "time": "09:00 a 10:00", "discipline": "ZUMBA", "instructor": "ARIEL" }
+        ],
+        "night_shift": [
+          { "time": "17:30 a 18:30", "discipline": "ZUMBA FOLCLORICA", "instructor": "PATRICK" },
+          { "time": "18:30 a 19:30", "discipline": "ZUMBA", "instructor": "JUAN PABLO" },
+          { "time": "19:30 a 20:30", "discipline": "FULL COMBAT", "instructor": "TERESA" },
+          { "time": "20:30 a 21:30", "discipline": "ZUMBA", "instructor": "JUAN PABLO" }
+        ]
+      },
+      "tuesday": {
+        "morning_shift": [
+          { "time": "08:00 a 09:00", "discipline": "ZUMBA", "instructor": "JUAN PABLO" },
+          { "time": "09:00 a 10:00", "discipline": "FULL COMBAT", "instructor": "TEREZA" }
+        ],
+        "night_shift": [
+          { "time": "17:00 a 18:00", "discipline": "FULL COMBAT", "instructor": "GUSTAVO" },
+          { "time": "18:30 a 19:30", "discipline": "ZUMBA", "instructor": "ARIEL" },
+          { "time": "19:30 a 20:30", "discipline": "STEPS Z", "instructor": "VANIA" },
+          { "time": "20:30 a 21:30", "discipline": "ZUMBA", "instructor": "MAIK" }
+        ]
+      },
+      "wednesday": {
+        "morning_shift": [
+          { "time": "08:00 a 09:00", "discipline": "ZUMBA", "instructor": "YASMIN" },
+          { "time": "09:00 a 10:00", "discipline": "ZUMBA", "instructor": "ARIEL" }
+        ],
+        "night_shift": [
+          { "time": "17:30 a 18:30", "discipline": "STEPS", "instructor": "PACTRICK" },
+          { "time": "18:30 a 19:30", "discipline": "ZUMBA FOLCLORICA", "instructor": "PACTRICK" },
+          { "time": "19:30 a 20:30", "discipline": "ZUMBA", "instructor": "JUAN PABLO" },
+          { "time": "20:30 a 21:30", "discipline": "ZUMBA", "instructor": "MAIK" }
+        ]
+      },
+      "thursday": {
+        "morning_shift": [
+          { "time": "08:00 a 09:00", "discipline": "ZUMBA", "instructor": "JUAN PABLO" },
+          { "time": "09:00 a 10:00", "discipline": "FULL COMBAT", "instructor": "TERESA" }
+        ],
+        "night_shift": [
+          { "time": "17:00 a 18:00", "discipline": "FULL COMBAT", "instructor": "GUSTAVO" },
+          { "time": "18:30 a 19:30", "discipline": "STEPS Z", "instructor": "VANIA" },
+          { "time": "19:30 a 20:30", "discipline": "ZUMBA FOLCLORICA", "instructor": "PACTRICK" },
+          { "time": "20:30 a 21:30", "discipline": "ZUMBA", "instructor": "ARIEL" }
+        ]
+      },
+      "friday": {
+        "morning_shift": [
+          { "time": "08:00 a 09:00", "discipline": "ZUMBA", "instructor": "JUAN PABLO" },
+          { "time": "09:00 a 10:00", "discipline": "ZUMBA", "instructor": "ARIEL" }
+        ],
+        "night_shift": [
+          { "time": "18:30 a 19:30", "discipline": "ZUMBA", "instructor": "ARIEL" },
+          { "time": "19:30 a 20:30", "discipline": "STEPS Z", "instructor": "VANIA" },
+          { "time": "20:30 a 21:30", "discipline": "ZUMBA", "instructor": "MAIK" }
+        ]
+      }
+    }
+  }
+  
