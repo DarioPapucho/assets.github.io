@@ -35,8 +35,8 @@
         <div class="hero-content">
             <h1>ONIX GYM</h1>
             <p class="tagline">Transforma tu cuerpo. Transforma tu vida.</p>
-            <a href="#contact" class="btn">¡Únete Hoy!</a>
-            <a href="#contact" class="btn btn-outline">Prueba una Clase Gratis</a>
+            <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20inscribirme%20a%20Onix%20Sport%20Center" class="btn">¡Únete Hoy!</a>
+            <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20la%20Sesión%20Individual%20de%2020%20Bs" class="btn btn-outline">Prueba una Sesión a 20 Bs</a>
         </div>
     </section>
 
@@ -48,7 +48,7 @@
                 <div class="benefit-card">
                     <i class="fas fa-medal"></i>
                     <h3>Entrenadores Certificados</h3>
-                    <p>Nuestro equipo de profesionales está altamente calificado para guiarte en tu camino fitness.</p>
+                    <p>Nuestro equipo de entrenadores está altamente calificado para guiarte en tu camino fitness.</p>
                 </div>
                 <div class="benefit-card">
                     <i class="fas fa-dumbbell"></i>
@@ -58,7 +58,7 @@
                 <div class="benefit-card">
                     <i class="fas fa-users"></i>
                     <h3>Variedad de Clases</h3>
-                    <p>Desde funcional hasta spinning, musculación y más. ¡Nunca te aburrirás!</p>
+                    <p>En el area de aerobicos contamos con clases de Zumba, Zumba folclorica, Step Z y Full combat.</p>
                 </div>
                 <div class="benefit-card">
                     <i class="fas fa-dollar-sign"></i>
@@ -283,38 +283,62 @@
     <section id="team" class="team">
         <div class="container">
             <h2 class="section-title">Nuestro <span>Equipo</span></h2>
-            <div class="team-container">
-                <div class="team-member touch-item">
-                    <div class="member-img">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenador Carlos">
+            <div class="team-carousel">
+                <div class="team-carousel-container">
+                    <div class="team-carousel-track" id="teamTrack">
+                        <div class="team-slide active">
+                            <div class="team-member touch-item">
+                                <div class="member-img">
+                                    <img src="./images/trainers/entrenadorxd.webp" alt="Entrenador Elias García">
+                                </div>
+                                <h3>Elias García</h3>
+                                <p class="role">Alguna descripcion ...</p>
+                                <p class="quote">"Mensaje de ejemplo ... El límite lo pones tú, no tu cuerpo."</p>
+                            </div>
+                        </div>
+                        <div class="team-slide">
+                            <div class="team-member touch-item">
+                                <div class="member-img">
+                                    <img src="./images/trainers/entrenadorxd.webp?height=300&width=300" alt="Entrenadora Laura">
+                                </div>
+                                <h3>Ana Jiménez</h3>
+                                <p class="role">Instructora de Zumba</p>
+                                <p class="quote">"Baila como si nadie te estuviera viendo."</p>
+                            </div>
+                        </div>
+                        <div class="team-slide">
+                            <div class="team-member touch-item">
+                                <div class="member-img">
+                                    <img src="./images/trainers/entrenadorxd.webp?height=300&width=300" alt="Entrenador Miguel">
+                                </div>
+                                <h3>Celso Rodríguez</h3>
+                                <p class="role">Especialista en Musculación</p>
+                                <p class="quote">"Construye tu cuerpo con disciplina y constancia."</p>
+                            </div>
+                        </div>
+                        <div class="team-slide">
+                            <div class="team-member touch-item">
+                                <div class="member-img">
+                                    <img src="./images/trainers/entrenadorxd.webp?height=300&width=300" alt="Entrenadora Ana">
+                                </div>
+                                <h3>Esperanza</h3>
+                                <p class="role">Instructora de Spinning</p>
+                                <p class="quote">"Pedalea hacia tus objetivos sin mirar atrás."</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>Carlos Mendoza</h3>
-                    <p class="role">Entrenador de CrossFit</p>
-                    <p class="quote">"El límite lo pones tú, no tu cuerpo."</p>
+                    <button class="team-carousel-btn prev" id="teamPrevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="team-carousel-btn next" id="teamNextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
-                <div class="team-member touch-item">
-                    <div class="member-img">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenadora Laura">
-                    </div>
-                    <h3>Laura Sánchez</h3>
-                    <p class="role">Instructora de Zumba</p>
-                    <p class="quote">"Baila como si nadie te estuviera viendo."</p>
-                </div>
-                <div class="team-member touch-item">
-                    <div class="member-img">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenador Miguel">
-                    </div>
-                    <h3>Miguel Torres</h3>
-                    <p class="role">Especialista en Musculación</p>
-                    <p class="quote">"Construye tu cuerpo con disciplina y constancia."</p>
-                </div>
-                <div class="team-member touch-item">
-                    <div class="member-img">
-                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenadora Ana">
-                    </div>
-                    <h3>Ana Gómez</h3>
-                    <p class="role">Instructora de Spinning</p>
-                    <p class="quote">"Pedalea hacia tus objetivos sin mirar atrás."</p>
+                <div class="team-carousel-indicators" id="teamCarouselIndicators">
+                    <span class="team-indicator active" data-slide="0"></span>
+                    <span class="team-indicator" data-slide="1"></span>
+                    <span class="team-indicator" data-slide="2"></span>
+                    <span class="team-indicator" data-slide="3"></span>
                 </div>
             </div>
         </div>
@@ -324,30 +348,51 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <h2 class="section-title">Lo que dicen <span>Nuestros Clientes</span></h2>
-            <div class="testimonials-container">
-                <div class="testimonial touch-item">
-                    <div class="testimonial-img">
-                        <img src="/placeholder.svg?height=100&width=100" alt="Cliente Sofía">
+            <div class="testimonials-carousel">
+                <div class="testimonials-carousel-container">
+                    <div class="testimonials-carousel-track" id="testimonialsTrack">
+                        <div class="testimonial-slide active">
+                            <div class="testimonial touch-item">
+                                <div class="testimonial-img">
+                                    <img src="./images/trainers/entrenadorxd.webp?height=100&width=100" alt="Cliente Sofía">
+                                </div>
+                                <p class="quote">"Gracias a Onix bajé 10kg en 3 meses. ¡Nunca me sentí mejor! Los entrenadores son increíbles y el ambiente es super motivador."</p>
+                                <h3>Sofía Martínez</h3>
+                                <p class="member-since">Miembro desde la inauguración (Abril 2025)</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial touch-item">
+                                <div class="testimonial-img">
+                                    <img src="./images/trainers/entrenadorxd.webp?height=100&width=100" alt="Cliente Roberto">
+                                </div>
+                                <p class="quote">"Llevo 6 meses en Onix y he logrado aumentar mi masa muscular como nunca antes. El equipo es de primera y los entrenadores saben lo que hacen."</p>
+                                <h3>Roberto Díaz</h3>
+                                <p class="member-since">Miembro desde la inauguración (Abril 2025)</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial touch-item">
+                                <div class="testimonial-img">
+                                    <img src="./images/trainers/entrenadorxd.webp?height=100&width=100" alt="Cliente Lucía">
+                                </div>
+                                <p class="quote">"Las clases de spinning son adictivas. He mejorado mi resistencia y conocido gente increíble. Onix no es solo un gym, es una familia."</p>
+                                <h3>Lucía Fernández</h3>
+                                <p class="member-since">Miembro desde la inauguración (Abril 2025)</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="quote">"Gracias a Onix bajé 10kg en 3 meses. ¡Nunca me sentí mejor! Los entrenadores son increíbles y el ambiente es super motivador."</p>
-                    <h3>Sofía Martínez</h3>
-                    <p class="member-since">Miembro desde 2022</p>
+                    <button class="testimonials-carousel-btn prev" id="testimonialsPrevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonials-carousel-btn next" id="testimonialsNextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
-                <div class="testimonial touch-item">
-                    <div class="testimonial-img">
-                        <img src="/placeholder.svg?height=100&width=100" alt="Cliente Roberto">
-                    </div>
-                    <p class="quote">"Llevo 6 meses en Onix y he logrado aumentar mi masa muscular como nunca antes. El equipo es de primera y los entrenadores saben lo que hacen."</p>
-                    <h3>Roberto Díaz</h3>
-                    <p class="member-since">Miembro desde 2023</p>
-                </div>
-                <div class="testimonial touch-item">
-                    <div class="testimonial-img">
-                        <img src="/placeholder.svg?height=100&width=100" alt="Cliente Lucía">
-                    </div>
-                    <p class="quote">"Las clases de spinning son adictivas. He mejorado mi resistencia y conocido gente increíble. Onix no es solo un gym, es una familia."</p>
-                    <h3>Lucía Fernández</h3>
-                    <p class="member-since">Miembro desde 2021</p>
+                <div class="testimonials-carousel-indicators" id="testimonialsCarouselIndicators">
+                    <span class="testimonial-indicator active" data-slide="0"></span>
+                    <span class="testimonial-indicator" data-slide="1"></span>
+                    <span class="testimonial-indicator" data-slide="2"></span>
                 </div>
             </div>
         </div>
@@ -360,53 +405,126 @@
             <div class="pricing-container">
                 <div class="price-card touch-item">
                     <div class="price-header">
-                        <h3>Plan Mensual</h3>
-                        <div class="price">$50<span>/mes</span></div>
+                        <h3>Sesión Individual</h3>
+                        <div class="price">20<span> Bs</span></div>
                     </div>
                     <div class="price-features">
                         <ul>
-                            <li><i class="fas fa-check"></i> Acceso a todas las áreas</li>
-                            <li><i class="fas fa-check"></i> Clases grupales incluidas</li>
-                            <li><i class="fas fa-check"></i> Evaluación inicial</li>
-                            <li><i class="fas fa-times"></i> Entrenador personal</li>
-                            <li><i class="fas fa-times"></i> Plan nutricional</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Una sesión de entrenamiento, válida por todo el día</li>
                         </ul>
                     </div>
-                    <a href="#contact" class="btn">Elegir Plan</a>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20la%20Sesión%20Individual%20de%2020%20Bs" class="btn">Elegir Plan</a>
+                </div>
+                <div class="price-card touch-item">
+                    <div class="price-header">
+                        <h3>Plan Mensual</h3>
+                        <div class="price">200<span> Bs</span></div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Acceso ilimitado durante un mes</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Mensual%20de%20200%20Bs" class="btn">Elegir Plan</a>
                 </div>
                 <div class="price-card featured touch-item">
                     <div class="price-header">
                         <h3>Plan Trimestral</h3>
-                        <div class="price">$45<span>/mes</span></div>
-                        <div class="save-badge">Ahorra 10%</div>
+                        <div class="price">490<span> Bs</span></div>
                     </div>
                     <div class="price-features">
                         <ul>
-                            <li><i class="fas fa-check"></i> Acceso a todas las áreas</li>
-                            <li><i class="fas fa-check"></i> Clases grupales incluidas</li>
-                            <li><i class="fas fa-check"></i> Evaluación inicial</li>
-                            <li><i class="fas fa-check"></i> 1 sesión con entrenador personal</li>
-                            <li><i class="fas fa-times"></i> Plan nutricional</li>
+                            <li><i class="fas fa-check"></i> Ahorras 110 Bs</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Acceso ilimitado durante tres meses</li>
                         </ul>
                     </div>
-                    <a href="#contact" class="btn">Elegir Plan</a>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Trimestral%20de%20490%20Bs" class="btn">Elegir Plan</a>
+                </div>
+                <div class="price-card touch-item">
+                    <div class="price-header">
+                        <h3>Plan Semestral</h3>
+                        <div class="price">850<span> Bs</span></div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Ahorras 350 Bs</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Acceso ilimitado durante seis meses</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Semestral%20de%20850%20Bs" class="btn">Elegir Plan</a>
                 </div>
                 <div class="price-card touch-item">
                     <div class="price-header">
                         <h3>Plan Anual</h3>
-                        <div class="price">$40<span>/mes</span></div>
-                        <div class="save-badge">Ahorra 20%</div>
+                        <div class="price">1400<span> Bs</span></div>
                     </div>
                     <div class="price-features">
                         <ul>
-                            <li><i class="fas fa-check"></i> Acceso a todas las áreas</li>
-                            <li><i class="fas fa-check"></i> Clases grupales incluidas</li>
-                            <li><i class="fas fa-check"></i> Evaluación inicial</li>
-                            <li><i class="fas fa-check"></i> 3 sesiones con entrenador personal</li>
-                            <li><i class="fas fa-check"></i> Plan nutricional básico</li>
+                            <li><i class="fas fa-check"></i> Ahorras 1000 Bs</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Acceso ilimitado durante un año</li>
                         </ul>
                     </div>
-                    <a href="#contact" class="btn">Elegir Plan</a>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Anual%20de%201400%20Bs" class="btn">Elegir Plan</a>
+                </div>
+            </div>
+            
+            <!-- Promociones Especiales -->
+            <h3 class="special-plans-title">Promociones Especiales</h3>
+            <div class="pricing-container">
+                <div class="price-card special touch-item">
+                    <div class="price-header">
+                        <h3>Plan Cumpleañero</h3>
+                        <div class="price">100<span> Bs</span></div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> ¡Obtienes el 50% Descuento!</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Válido al inscribirte durante el mes de tu cumpleaños</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Cumpleañero%20de%20100%20Bs" class="btn">Elegir Plan</a>
+                </div>
+                <div class="price-card special touch-item">
+                    <div class="price-header">
+                        <h3>Plan Mejor Amigo</h3>
+                        <div class="price">170<span> Bs por persona</span></div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> ¡Obtienen el 15% de descuento entre amigos!</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Válido al inscribirse dos personas al mismo tiempo</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Mejor%20Amigo%20de%20170%20Bs%20por%20persona" class="btn">Elegir Plan</a>
+                </div>
+                <div class="price-card special touch-item">
+                    <div class="price-header">
+                        <h3>Plan Gym Bros</h3>
+                        <div class="price">150<span> Bs por persona</span></div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> ¡Obtienes el 25% de descuento en grupo!</li>
+                            <li><i class="fas fa-check"></i> Acceso a todas las instalaciones</li>
+                            <li><i class="fas fa-check"></i> Casillero incluido</li>
+                            <li class="plan-description">Válido al inscribirse tres o más personas al mismo tiempo</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/59176325515?text=Hola,%20me%20interesa%20el%20Plan%20Gym%20Bros%20de%20150%20Bs%20por%20persona" class="btn">Elegir Plan</a>
                 </div>
             </div>
         </div>
@@ -418,44 +536,29 @@
             <h2 class="section-title">Ubicación y <span>Contacto</span></h2>
             <div class="contact-container">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.952912260219!2d3.375295414770757!3d6.5276316952668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzEnMzkuNSJOIDPCsDIyJzMxLjEiRQ!5e0!3m2!1sen!2sng!4v1627913085492!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5572004922137!2d-66.28384722551517!3d-17.385027464129013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e30bbee2715f63%3A0xa28035e06d32bb85!2sSalon%20de%20eventos%20se%C3%B1orial!5e0!3m2!1ses!2sbo!4v1749499579777!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="contact-info">
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Dirección</h3>
-                            <p>Av. Principal 123, Ciudad</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Teléfono</h3>
-                            <p>+123 456 7890</p>
+                            <p>Av. Suarez Miranda - Ex salon de Eventos Señorial</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fab fa-whatsapp"></i>
                         <div>
                             <h3>WhatsApp</h3>
-                            <p>+123 456 7890</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>info@onixgym.com</p>
+                            <p>+591 7632 5515</p>
                         </div>
                     </div>
                     <div class="social-media">
                         <h3>Síguenos</h3>
                         <div class="social-icons">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/onixsportcenter" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@ONIXSPORTCENTER" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.tiktok.com/@onix.sportcenter" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
                         </div>
                     </div>
                 </div>

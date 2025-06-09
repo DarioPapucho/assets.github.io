@@ -361,15 +361,231 @@ class VideoCarousel {
   }
 }
 
+// Team Carousel Class
+class TeamCarousel {
+  constructor() {
+    this.currentSlide = 0;
+    this.slides = document.querySelectorAll(".team-slide");
+    this.indicators = document.querySelectorAll(".team-indicator");
+    this.track = document.getElementById("teamTrack");
+    this.prevBtn = document.getElementById("teamPrevBtn");
+    this.nextBtn = document.getElementById("teamNextBtn");
+    this.autoPlayInterval = null;
+
+    if (!this.track) return;
+
+    this.init();
+  }
+
+  init() {
+    // Event listeners
+    this.prevBtn?.addEventListener("click", () => this.prevSlide());
+    this.nextBtn?.addEventListener("click", () => this.nextSlide());
+
+    // Indicator clicks
+    this.indicators.forEach((indicator, index) => {
+      indicator.addEventListener("click", () => this.goToSlide(index));
+    });
+
+    // Start autoplay
+    this.startAutoPlay();
+
+    // Pause on hover
+    this.track.addEventListener("mouseenter", () => this.stopAutoPlay());
+    this.track.addEventListener("mouseleave", () => this.startAutoPlay());
+
+    // Touch support
+    this.addTouchSupport();
+  }
+
+  goToSlide(slideIndex) {
+    // Remove active class from current slide and indicator
+    this.slides[this.currentSlide].classList.remove("active");
+    this.indicators[this.currentSlide].classList.remove("active");
+
+    // Update current slide
+    this.currentSlide = slideIndex;
+
+    // Add active class to new slide and indicator
+    this.slides[this.currentSlide].classList.add("active");
+    this.indicators[this.currentSlide].classList.add("active");
+
+    // Update transform
+    this.track.style.transform = `translateX(-${this.currentSlide * 100}%)`;
+  }
+
+  nextSlide() {
+    const nextIndex = (this.currentSlide + 1) % this.slides.length;
+    this.goToSlide(nextIndex);
+  }
+
+  prevSlide() {
+    const prevIndex =
+      this.currentSlide === 0 ? this.slides.length - 1 : this.currentSlide - 1;
+    this.goToSlide(prevIndex);
+  }
+
+  startAutoPlay() {
+    this.stopAutoPlay();
+    this.autoPlayInterval = setInterval(() => {
+      this.nextSlide();
+    }, 5000);
+  }
+
+  stopAutoPlay() {
+    if (this.autoPlayInterval) {
+      clearInterval(this.autoPlayInterval);
+      this.autoPlayInterval = null;
+    }
+  }
+
+  addTouchSupport() {
+    let startX = 0;
+    let endX = 0;
+
+    this.track.addEventListener(
+      "touchstart",
+      (e) => {
+        startX = e.touches[0].clientX;
+      },
+      { passive: true }
+    );
+
+    this.track.addEventListener(
+      "touchend",
+      (e) => {
+        endX = e.changedTouches[0].clientX;
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > 50) {
+          if (diff > 0) {
+            this.nextSlide();
+          } else {
+            this.prevSlide();
+          }
+        }
+      },
+      { passive: true }
+    );
+  }
+}
+
+// Testimonials Carousel Class
+class TestimonialsCarousel {
+  constructor() {
+    this.currentSlide = 0;
+    this.slides = document.querySelectorAll(".testimonial-slide");
+    this.indicators = document.querySelectorAll(".testimonial-indicator");
+    this.track = document.getElementById("testimonialsTrack");
+    this.prevBtn = document.getElementById("testimonialsPrevBtn");
+    this.nextBtn = document.getElementById("testimonialsNextBtn");
+    this.autoPlayInterval = null;
+
+    if (!this.track) return;
+
+    this.init();
+  }
+
+  init() {
+    // Event listeners
+    this.prevBtn?.addEventListener("click", () => this.prevSlide());
+    this.nextBtn?.addEventListener("click", () => this.nextSlide());
+
+    // Indicator clicks
+    this.indicators.forEach((indicator, index) => {
+      indicator.addEventListener("click", () => this.goToSlide(index));
+    });
+
+    // Start autoplay
+    this.startAutoPlay();
+
+    // Pause on hover
+    this.track.addEventListener("mouseenter", () => this.stopAutoPlay());
+    this.track.addEventListener("mouseleave", () => this.startAutoPlay());
+
+    // Touch support
+    this.addTouchSupport();
+  }
+
+  goToSlide(slideIndex) {
+    // Remove active class from current slide and indicator
+    this.slides[this.currentSlide].classList.remove("active");
+    this.indicators[this.currentSlide].classList.remove("active");
+
+    // Update current slide
+    this.currentSlide = slideIndex;
+
+    // Add active class to new slide and indicator
+    this.slides[this.currentSlide].classList.add("active");
+    this.indicators[this.currentSlide].classList.add("active");
+
+    // Update transform
+    this.track.style.transform = `translateX(-${this.currentSlide * 100}%)`;
+  }
+
+  nextSlide() {
+    const nextIndex = (this.currentSlide + 1) % this.slides.length;
+    this.goToSlide(nextIndex);
+  }
+
+  prevSlide() {
+    const prevIndex =
+      this.currentSlide === 0 ? this.slides.length - 1 : this.currentSlide - 1;
+    this.goToSlide(prevIndex);
+  }
+
+  startAutoPlay() {
+    this.stopAutoPlay();
+    this.autoPlayInterval = setInterval(() => {
+      this.nextSlide();
+    }, 6000); // Slightly different timing than team carousel
+  }
+
+  stopAutoPlay() {
+    if (this.autoPlayInterval) {
+      clearInterval(this.autoPlayInterval);
+      this.autoPlayInterval = null;
+    }
+  }
+
+  addTouchSupport() {
+    let startX = 0;
+    let endX = 0;
+
+    this.track.addEventListener(
+      "touchstart",
+      (e) => {
+        startX = e.touches[0].clientX;
+      },
+      { passive: true }
+    );
+
+    this.track.addEventListener(
+      "touchend",
+      (e) => {
+        endX = e.changedTouches[0].clientX;
+        const diff = startX - endX;
+
+        if (Math.abs(diff) > 50) {
+          if (diff > 0) {
+            this.nextSlide();
+          } else {
+            this.prevSlide();
+          }
+        }
+      },
+      { passive: true }
+    );
+  }
+}
+
 // Initialize everything when DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
-  // Initialize carousel
+  // Initialize all carousels
   new GalleryCarousel();
-
-  // Initialize video carousel
   new VideoCarousel();
-
-  // Initialize schedule manager
+  new TeamCarousel();
+  new TestimonialsCarousel();
   new ScheduleManager();
 
   // Initialize scroll animations

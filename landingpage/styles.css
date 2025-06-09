@@ -752,14 +752,14 @@
   
   .pricing-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-bottom: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
   }
   
   .price-card {
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     text-align: center;
     transition: all 0.3s ease;
@@ -767,106 +767,204 @@
   }
   
   .price-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     border-color: var(--neon-blue);
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
   }
   
   .price-card.featured {
     border: 2px solid var(--yellow);
-    transform: scale(1.05);
+    transform: scale(1.02);
     position: relative;
     z-index: 1;
   }
   
   .price-card.featured:hover {
-    transform: scale(1.05) translateY(-10px);
+    transform: scale(1.02) translateY(-5px);
+  }
+
+  .price-card.special {
+    border: 2px solid var(--neon-blue);
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .price-card.special:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
   }
   
   .price-header {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 30px;
+    padding: 15px;
     position: relative;
   }
   
   .price-header h3 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--white);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .price {
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 700;
     color: var(--yellow);
+    line-height: 1;
   }
   
   .price span {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
   }
   
   .save-badge {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 8px;
+    right: 8px;
     background-color: var(--neon-blue);
     color: var(--black);
     font-weight: 600;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+  }
+
+  .special .save-badge {
+    background-color: var(--yellow);
   }
   
   .price-features {
-    padding: 30px;
+    padding: 15px;
   }
   
   .price-features ul li {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     color: #ccc;
+    font-size: 0.9rem;
   }
   
   .price-features ul li i {
-    margin-right: 10px;
+    margin-right: 8px;
   }
   
   .price-features ul li .fa-check {
     color: var(--neon-blue);
+  }
+
+  .special .price-features ul li .fa-check {
+    color: var(--yellow);
   }
   
   .price-features ul li .fa-times {
     color: #ff6b6b;
     display: inline;
   }
+
+  .plan-description {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--neon-blue) !important;
+    font-style: italic;
+    font-size: 0.85rem !important;
+  }
+
+  .special .plan-description {
+    color: var(--yellow) !important;
+  }
   
   .price-card .btn {
-    margin: 0 30px 30px;
+    margin: 5px 15px 15px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
   }
-  
-  .special-offer {
+
+  .special-plans-title {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 30px;
-    border-radius: 10px;
-    margin-top: 50px;
-  }
-  
-  .special-offer h3,
-  .free-trial h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--neon-blue);
-    margin-bottom: 15px;
+    margin: 40px 0 25px;
+    position: relative;
   }
-  
-  .special-offer p,
-  .free-trial p {
-    color: #ccc;
-    margin-bottom: 20px;
+
+  .special-plans-title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: var(--neon-blue);
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  
-  .free-trial {
-    margin-top: 30px;
+
+  /* Responsive styles for pricing section */
+  @media (max-width: 768px) {
+    .pricing-container {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .price-card.featured {
+      transform: none;
+    }
+
+    .price-card.featured:hover {
+      transform: translateY(-5px);
+    }
+
+    .price-header h3 {
+      font-size: 1.2rem;
+    }
+
+    .price {
+      font-size: 2rem;
+    }
+
+    .special-plans-title {
+      font-size: 1.5rem;
+      margin: 30px 0 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .pricing-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .price-header h3 {
+      font-size: 1.1rem;
+    }
+
+    .price {
+      font-size: 1.8rem;
+    }
+
+    .price-features {
+      padding: 12px;
+    }
+
+    .price-features ul li {
+      font-size: 0.85rem;
+      margin-bottom: 6px;
+    }
+
+    .special-plans-title {
+      font-size: 1.3rem;
+    }
+
+    .price-card .btn {
+      margin: 5px 10px 10px;
+      padding: 6px 15px;
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .pricing-container {
+      grid-template-columns: 1fr;
+    }
   }
   
   /* Contact Section */
@@ -1670,6 +1768,197 @@
         width: 35px;
         height: 35px;
         font-size: 0.9rem;
+    }
+  }
+  
+  /* Team Carousel Styles */
+  .team-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 50px; /* Increased padding for more space */
+  }
+
+  .team-carousel-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .team-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .team-slide {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    padding: 15px;
+  }
+
+  .team-slide.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .team-member {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .member-img {
+    height: 300px; /* Fixed height */
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .member-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .team-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 215, 0, 0.8);
+    color: var(--black);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    z-index: 10;
+  }
+
+  .team-carousel-btn:hover {
+    background-color: var(--yellow);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .team-carousel-btn.prev {
+    left: 10px; /* Move button more inward */
+  }
+
+  .team-carousel-btn.next {
+    right: 10px; /* Move button more inward */
+  }
+
+  /* Testimonials Carousel Styles */
+  .testimonials-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 50px; /* Increased padding for more space */
+  }
+
+  .testimonials-carousel-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .testimonials-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .testimonial-slide {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+    padding: 15px;
+  }
+
+  .testimonial-slide.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .testimonials-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 215, 0, 0.8);
+    color: var(--black);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    z-index: 10;
+  }
+
+  .testimonials-carousel-btn:hover {
+    background-color: var(--yellow);
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .testimonials-carousel-btn.prev {
+    left: 10px; /* Move button more inward */
+  }
+
+  .testimonials-carousel-btn.next {
+    right: 10px; /* Move button more inward */
+  }
+
+  /* Responsive styles for team and testimonials carousels */
+  @media (max-width: 768px) {
+    .team-carousel,
+    .testimonials-carousel {
+      padding: 0 40px; /* Adjusted padding for tablets */
+    }
+
+    .team-carousel-btn.prev,
+    .testimonials-carousel-btn.prev {
+      left: 5px;
+    }
+
+    .team-carousel-btn.next,
+    .testimonials-carousel-btn.next {
+      right: 5px;
+    }
+
+    .member-img {
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .team-carousel,
+    .testimonials-carousel {
+      padding: 0 35px; /* Adjusted padding for mobile */
+    }
+
+    .team-carousel-btn.prev,
+    .testimonials-carousel-btn.prev {
+      left: 0px;
+    }
+
+    .team-carousel-btn.next,
+    .testimonials-carousel-btn.next {
+      right: 0px;
+    }
+
+    .member-img {
+      height: 200px;
+    }
+
+    .team-slide,
+    .testimonial-slide {
+      padding: 10px;
     }
   }
   
