@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onix Gym - Transforma tu cuerpo. Transforma tu vida.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="logo">ONIX GYM</div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#schedule">Horarios</a></li>
+                    <li><a href="#team">Equipo</a></li>
+                    <li><a href="#pricing">Planes</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>ONIX GYM</h1>
+            <p class="tagline">Transforma tu cuerpo. Transforma tu vida.</p>
+            <a href="#contact" class="btn">¡Únete Hoy!</a>
+            <a href="#contact" class="btn btn-outline">Prueba una Clase Gratis</a>
+        </div>
+    </section>
+
+    <!-- 2. Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegir <span>Onix Gym</span>?</h2>
+            <div class="benefits-container">
+                <div class="benefit-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>Entrenadores Certificados</h3>
+                    <p>Nuestro equipo de profesionales está altamente calificado para guiarte en tu camino fitness.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Equipos Modernos</h3>
+                    <p>Contamos con la última tecnología en equipamiento para optimizar tus entrenamientos.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Variedad de Clases</h3>
+                    <p>Desde funcional hasta spinning, musculación y más. ¡Nunca te aburrirás!</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Planes Accesibles</h3>
+                    <p>Tenemos opciones para todos los bolsillos sin comprometer la calidad.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Ambiente Motivador</h3>
+                    <p>Una comunidad que te impulsa a dar lo mejor de ti en cada entrenamiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Nuestras <span>Instalaciones</span></h2>
+            <div class="gallery-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide active">
+                            <img src="images/cardio_zone.jpg" alt="Área de cardio">
+                            <div class="slide-overlay">
+                                <h3>Área de Cardio</h3>
+                                <p>Equipos de última generación para tu entrenamiento cardiovascular</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/glute_zone.jpg" alt="Zona de glúteos">
+                            <div class="slide-overlay">
+                                <h3>Zona de Glúteos</h3>
+                                <p>Área especializada para el entrenamiento de glúteos</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/glute_zone2.jpg" alt="Zona de glúteos">
+                            <div class="slide-overlay">
+                                <h3>Zona de Glúteos</h3>
+                                <p>Equipamiento especializado para glúteos y piernas</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/zumba_zone.jpg" alt="Sala de zumba">
+                            <div class="slide-overlay">
+                                <h3>Sala de Zumba</h3>
+                                <p>Amplio espacio para clases grupales de zumba</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/zumba_zone2.jpg" alt="Sala de zumba">
+                            <div class="slide-overlay">
+                                <h3>Sala de Zumba</h3>
+                                <p>Espacio ideal para clases grupales</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/zumba_zone3.jpg" alt="Sala de zumba">
+                            <div class="slide-overlay">
+                                <h3>Sala de Zumba</h3>
+                                <p>Ambiente perfecto para tus clases de baile</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/legs_zone.jpg" alt="Área de piernas">
+                            <div class="slide-overlay">
+                                <h3>Área de Piernas</h3>
+                                <p>Máquinas especializadas para piernas</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/legs_zone2.jpg" alt="Área de piernas">
+                            <div class="slide-overlay">
+                                <h3>Área de Piernas</h3>
+                                <p>Equipamiento completo para entrenamiento de piernas</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/legs_zone3.jpg" alt="Área de piernas">
+                            <div class="slide-overlay">
+                                <h3>Área de Piernas</h3>
+                                <p>Zona especializada en entrenamiento de piernas</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/mancuernas.jpg" alt="Área de peso libre">
+                            <div class="slide-overlay">
+                                <h3>Área de Peso Libre</h3>
+                                <p>Amplia selección de mancuernas</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/mancuernas2.jpg" alt="Área de peso libre">
+                            <div class="slide-overlay">
+                                <h3>Área de Peso Libre</h3>
+                                <p>Gran variedad de pesos para tu entrenamiento</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/mancuernas3.jpg" alt="Área de peso libre">
+                            <div class="slide-overlay">
+                                <h3>Área de Peso Libre</h3>
+                                <p>Zona completa de mancuernas y pesos libres</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/espalda.jpg" alt="Área de espalda">
+                            <div class="slide-overlay">
+                                <h3>Área de Espalda</h3>
+                                <p>Equipamiento especializado para espalda</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/espalda2.jpg" alt="Área de espalda">
+                            <div class="slide-overlay">
+                                <h3>Área de Espalda</h3>
+                                <p>Máquinas para un entrenamiento completo de espalda</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/hombros.jpg" alt="Área de hombros">
+                            <div class="slide-overlay">
+                                <h3>Área de Hombros</h3>
+                                <p>Zona especializada para el entrenamiento de hombros</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn prev" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn next" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                    <span class="indicator" data-slide="4"></span>
+                    <span class="indicator" data-slide="5"></span>
+                    <span class="indicator" data-slide="6"></span>
+                    <span class="indicator" data-slide="7"></span>
+                    <span class="indicator" data-slide="8"></span>
+                    <span class="indicator" data-slide="9"></span>
+                    <span class="indicator" data-slide="10"></span>
+                    <span class="indicator" data-slide="11"></span>
+                    <span class="indicator" data-slide="12"></span>
+                    <span class="indicator" data-slide="13"></span>
+                    <span class="indicator" data-slide="14"></span>
+                </div>
+            </div>
+            <!-- Video Tour Section -->
+            <div class="video-carousel-container">
+                <h3 class="video-section-title">Video Tour</h3>
+                <p class="video-section-subtitle">Conoce nuestras instalaciones</p>
+                <div class="video-carousel">
+                    <div class="video-track" id="videoTrack">
+                        <div class="video-slide active">
+                            <div class="video-wrapper">
+                                <iframe src="https://www.youtube.com/embed/A3o0SY4uF5w" title="Video tour 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-slide">
+                            <div class="video-wrapper">
+                                <iframe src="https://www.youtube.com/embed/JbsaNU5K-QQ" title="Video tour 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-slide">
+                            <div class="video-wrapper">
+                                <iframe src="https://www.youtube.com/embed/21JRsVjwYnI" title="Video tour 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="video-carousel-btn prev" id="videoPrevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="video-carousel-btn next" id="videoNextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="video-carousel-indicators" id="videoCarouselIndicators">
+                    <span class="video-indicator active" data-slide="0"></span>
+                    <span class="video-indicator" data-slide="1"></span>
+                    <span class="video-indicator" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Schedule Section -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2 class="section-title">Horarios y <span>Clases</span></h2>
+            <div class="schedule-container">
+                <div class="gym-hours">
+                    <h3>Horario de Atención</h3>
+                    <ul>
+                        <li><span>Lunes a Viernes:</span> 6:00 AM - 22:00 PM</li>
+                        <li><span>Sábados y feriados:</span> 10:00 AM - 16:00 PM</li>
+                    </ul>
+                </div>
+                <div class="class-schedule">
+                    <h3>Clases Grupales</h3>
+                    <div class="schedule-tabs">
+                        <button class="tab-btn active" data-day="monday">Lunes</button>
+                        <button class="tab-btn" data-day="tuesday">Martes</button>
+                        <button class="tab-btn" data-day="wednesday">Miércoles</button>
+                        <button class="tab-btn" data-day="thursday">Jueves</button>
+                        <button class="tab-btn" data-day="friday">Viernes</button>
+                    </div>
+                    <div class="schedule-content" id="scheduleContent">
+                        <div class="loading">Cargando horarios...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Nuestro <span>Equipo</span></h2>
+            <div class="team-container">
+                <div class="team-member touch-item">
+                    <div class="member-img">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenador Carlos">
+                    </div>
+                    <h3>Carlos Mendoza</h3>
+                    <p class="role">Entrenador de CrossFit</p>
+                    <p class="quote">"El límite lo pones tú, no tu cuerpo."</p>
+                </div>
+                <div class="team-member touch-item">
+                    <div class="member-img">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenadora Laura">
+                    </div>
+                    <h3>Laura Sánchez</h3>
+                    <p class="role">Instructora de Zumba</p>
+                    <p class="quote">"Baila como si nadie te estuviera viendo."</p>
+                </div>
+                <div class="team-member touch-item">
+                    <div class="member-img">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenador Miguel">
+                    </div>
+                    <h3>Miguel Torres</h3>
+                    <p class="role">Especialista en Musculación</p>
+                    <p class="quote">"Construye tu cuerpo con disciplina y constancia."</p>
+                </div>
+                <div class="team-member touch-item">
+                    <div class="member-img">
+                        <img src="/placeholder.svg?height=300&width=300" alt="Entrenadora Ana">
+                    </div>
+                    <h3>Ana Gómez</h3>
+                    <p class="role">Instructora de Spinning</p>
+                    <p class="quote">"Pedalea hacia tus objetivos sin mirar atrás."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen <span>Nuestros Clientes</span></h2>
+            <div class="testimonials-container">
+                <div class="testimonial touch-item">
+                    <div class="testimonial-img">
+                        <img src="/placeholder.svg?height=100&width=100" alt="Cliente Sofía">
+                    </div>
+                    <p class="quote">"Gracias a Onix bajé 10kg en 3 meses. ¡Nunca me sentí mejor! Los entrenadores son increíbles y el ambiente es super motivador."</p>
+                    <h3>Sofía Martínez</h3>
+                    <p class="member-since">Miembro desde 2022</p>
+                </div>
+                <div class="testimonial touch-item">
+                    <div class="testimonial-img">
+                        <img src="/placeholder.svg?height=100&width=100" alt="Cliente Roberto">
+                    </div>
+                    <p class="quote">"Llevo 6 meses en Onix y he logrado aumentar mi masa muscular como nunca antes. El equipo es de primera y los entrenadores saben lo que hacen."</p>
+                    <h3>Roberto Díaz</h3>
+                    <p class="member-since">Miembro desde 2023</p>
+                </div>
+                <div class="testimonial touch-item">
+                    <div class="testimonial-img">
+                        <img src="/placeholder.svg?height=100&width=100" alt="Cliente Lucía">
+                    </div>
+                    <p class="quote">"Las clases de spinning son adictivas. He mejorado mi resistencia y conocido gente increíble. Onix no es solo un gym, es una familia."</p>
+                    <h3>Lucía Fernández</h3>
+                    <p class="member-since">Miembro desde 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Nuestros <span>Planes</span></h2>
+            <div class="pricing-container">
+                <div class="price-card touch-item">
+                    <div class="price-header">
+                        <h3>Plan Mensual</h3>
+                        <div class="price">$50<span>/mes</span></div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Acceso a todas las áreas</li>
+                            <li><i class="fas fa-check"></i> Clases grupales incluidas</li>
+                            <li><i class="fas fa-check"></i> Evaluación inicial</li>
+                            <li><i class="fas fa-times"></i> Entrenador personal</li>
+                            <li><i class="fas fa-times"></i> Plan nutricional</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn">Elegir Plan</a>
+                </div>
+                <div class="price-card featured touch-item">
+                    <div class="price-header">
+                        <h3>Plan Trimestral</h3>
+                        <div class="price">$45<span>/mes</span></div>
+                        <div class="save-badge">Ahorra 10%</div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Acceso a todas las áreas</li>
+                            <li><i class="fas fa-check"></i> Clases grupales incluidas</li>
+                            <li><i class="fas fa-check"></i> Evaluación inicial</li>
+                            <li><i class="fas fa-check"></i> 1 sesión con entrenador personal</li>
+                            <li><i class="fas fa-times"></i> Plan nutricional</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn">Elegir Plan</a>
+                </div>
+                <div class="price-card touch-item">
+                    <div class="price-header">
+                        <h3>Plan Anual</h3>
+                        <div class="price">$40<span>/mes</span></div>
+                        <div class="save-badge">Ahorra 20%</div>
+                    </div>
+                    <div class="price-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Acceso a todas las áreas</li>
+                            <li><i class="fas fa-check"></i> Clases grupales incluidas</li>
+                            <li><i class="fas fa-check"></i> Evaluación inicial</li>
+                            <li><i class="fas fa-check"></i> 3 sesiones con entrenador personal</li>
+                            <li><i class="fas fa-check"></i> Plan nutricional básico</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn">Elegir Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Location and Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Ubicación y <span>Contacto</span></h2>
+            <div class="contact-container">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.952912260219!2d3.375295414770757!3d6.5276316952668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzEnMzkuNSJOIDPCsDIyJzMxLjEiRQ!5e0!3m2!1sen!2sng!4v1627913085492!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Av. Principal 123, Ciudad</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>+123 456 7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@onixgym.com</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h3>Síguenos</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>ONIX GYM</h2>
+                    <p>Transforma tu cuerpo. Transforma tu vida.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#benefits">Beneficios</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#schedule">Horarios</a></li>
+                        <li><a href="#team">Equipo</a></li>
+                        <li><a href="#pricing">Planes</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Onix Gym. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
