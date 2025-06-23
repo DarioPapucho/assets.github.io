@@ -18,6 +18,19 @@
           "restTime": "1 - 1.5 minutos",
           "machineId": "M001",
           "machineName": "Banco de Press"
+        },
+        {
+          "id": "0002",
+          "name": "Press de banca ",
+          "level": "principiante",
+          "description": "enfoque en todo el pecho en especial pecho medio ",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/38_Maquina_De_Press_De_Banca.mp4",
+          "focusRoutine": "Pecho",
+          "sets": "3 - 4",
+          "reps": "12 - 15",
+          "restTime": "1 - 1.5 minutos",
+          "machineId": "M002",
+          "machineName": "Banco de Press"
         }
       ]
     }
