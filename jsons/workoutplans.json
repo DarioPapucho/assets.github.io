@@ -2,98 +2,22 @@
   "workoutPlans": [
     {
       "level": "principiante",
-      "focusRoutine": "Entrenamiento Básico",
+      "focusRoutine": "Día de entrenamiento de pectoral ",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": [
         {
           "id": "0001",
-          "name": "Press de Banca",
+          "name": "Press inclinado para pectoral alto",
           "level": "principiante",
-          "description": "Ejercicio fundamental para piernas de press banca",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/1_Maquina_De_Fondos_En_Maquina.mp4",
+          "description": "enfoque de trabajo pecho alto ",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/40_Press_De_Banca_Para_Pecho_Alto.mp4",
           "focusRoutine": "Pecho",
-          "sets": 3,
-          "reps": "12-15",
-          "restTime": "90 segundos",
+          "sets": "3 - 4",
+          "reps": "12 - 15",
+          "restTime": "1 - 1.5 minutos",
           "machineId": "M001",
           "machineName": "Banco de Press"
-        },
-        {
-          "id": "0004",
-          "name": "Sentadillas",
-          "level": "principiante",
-          "description": "Ejercicio fundamental para piernas",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/3_Maquina_Multifuncional_De_Fondos_Y_Espalda.mp4",
-          "focusRoutine": "Piernas",
-          "sets": 3,
-          "reps": "12-15",
-          "restTime": "90 segundos",
-          "machineId": "M002",
-          "machineName": "Jaula de Sentadillas"
-        }
-      ]
-    },
-    {
-      "level": "intermedio",
-      "focusRoutine": "Entrenamiento Intermedio",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
-      "description": "Plan para personas con experiencia básica en el gimnasio",
-      "exercises": [
-        {
-          "id": "0003",
-          "name": "Press Militar",
-          "level": "intermedio",
-          "description": "Ejercicio compuesto para hombros",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/5_Elevacion_De_Polea_En_Paquina.mp4",
-          "focusRoutine": "Hombros",
-          "sets": 4,
-          "reps": "10-12",
-          "restTime": "60 segundos",
-          "machineId": "M001",
-          "machineName": "Banco Ajustable con Barra"
-        }
-      ]
-    },
-    {
-      "level": "avanzado",
-      "focusRoutine": "Entrenamiento Avanzado",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
-      "description": "Plan intensivo para atletas experimentados",
-      "exercises": [
-        {
-          "id": "0004",
-          "name": "Peso Muerto",
-          "level": "avanzado",
-          "description": "Ejercicio compuesto para espalda y piernas",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/29_Máquina_De_8_Estaciones_O_Multifuncional.mp4",
-          "focusRoutine": "Espalda/Piernas",
-          "sets": 5,
-          "reps": "5-8",
-          "restTime": "120 segundos",
-          "machineId": "M002",
-          "machineName": "Jaula de Sentadillas"
-        }
-      ]
-    },
-    {
-      "level": "profesional",
-      "focusRoutine": "Entrenamiento Elite",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
-      "description": "Plan de alto rendimiento para atletas profesionales",
-      "exercises": [
-        {
-          "id": "0005",
-          "level": "profesional",
-          "name": "Clean and Jerk",
-          "description": "Movimiento olímpico complejo",
-          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/59_Mnaquina_Para_Peso_Muerto_Y_Bulgaras.mp4",
-          "focusRoutine": "Full Body",
-          "sets": 6,
-          "reps": "3-5",
-          "restTime": "180 segundos",
-          "machineId": "M001",
-          "machineName": "Plataforma de Halterofilia"
         }
       ]
     }
