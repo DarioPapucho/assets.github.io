@@ -33,6 +33,40 @@
           "machineName": "Banco de Press"
         }
       ]
+    },
+    {
+      "level": "principiante",
+      "focusRoutine": "Día de entrenamiento de pectoral ",
+      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "description": "Plan perfecto para personas que están comenzando su viaje fitness",
+      "exercises": [
+        {
+          "id": "0001",
+          "name": "Press inclinado para pectoral alto",
+          "level": "principiante",
+          "description": "enfoque de trabajo pecho alto ",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/40_Press_De_Banca_Para_Pecho_Alto.mp4",
+          "focusRoutine": "Pecho",
+          "sets": "3 - 4",
+          "reps": "12 - 15",
+          "restTime": "1 - 1.5 minutos",
+          "machineId": "M001",
+          "machineName": "Banco de Press"
+        },
+        {
+          "id": "0002",
+          "name": "Press de banca ",
+          "level": "principiante",
+          "description": "enfoque en todo el pecho en especial pecho medio ",
+          "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/38_Maquina_De_Press_De_Banca.mp4",
+          "focusRoutine": "Pecho",
+          "sets": "3 - 4",
+          "reps": "12 - 15",
+          "restTime": "1 - 1.5 minutos",
+          "machineId": "M002",
+          "machineName": "Banco de Press"
+        }
+      ]
     }
   ]
 }
