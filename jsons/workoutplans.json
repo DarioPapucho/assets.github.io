@@ -38,7 +38,7 @@
           "level": "principiante",
           "description": "Ejercicio enfocado en la parte inferior del pecho",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/39_Maquina_Press_De_Banca_Para_Pecho_Bajo.mp4",
-          "focusRoutine": "Pecho bajo",
+          "": "Pecho bajo",
           "sets": 3,
           "reps": "12 - 15",
           "restTime": "1 - 1.5 minutos",
@@ -51,7 +51,7 @@
           "level": "principiante",
           "description": "Ejercicio enfocado en la apertura del pectoral",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/34_Maquina_Peck_Deck.mp4",
-          "focusRoutine": "Precho y triceps",
+          "": "Precho y triceps",
           "sets": 3,
           "reps": "12 - 15",
           "restTime": "1 - 1.5 minutos",
@@ -64,7 +64,7 @@
           "level": "principiante",
           "description": "Ejercicio donde se enfoca la parte del pecho bajo así mismo como tríceps",
           "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/1_Maquina_De_Fondos_En_Maquina.mp4",
-          "focusRoutine": "Pecho y triceps",
+          "": "Pecho y triceps",
           "sets": 3,
           "reps": "12 - 15",
           "restTime": "1 - 1.5 minutos",
@@ -75,7 +75,7 @@
     },
     {
       "level": "principiante",
-      "focusRoutine": "Día de entrenamiento de Espalda y Biceps ",
+      "focusRoutine": "Día 2 de entrenamiento de Espalda y Biceps ",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": [
@@ -109,7 +109,7 @@
     },
     {
       "level": "principiante",
-      "focusRoutine": "Día de entrenamiento para cruadriceps ",
+      "focusRoutine": "Día 3 de entrenamiento para cruadriceps",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": [
@@ -169,7 +169,7 @@
     },
     {
       "level": "principiante",
-      "focusRoutine": "Día de entrenamiento para Femoral y Gluteos",
+      "focusRoutine": "Día 4 de entrenamiento para Femoral y Gluteos",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": [
