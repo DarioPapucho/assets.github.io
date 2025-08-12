@@ -1,0 +1,54 @@
+[
+    {
+      "id": "0201",
+      "name": "Smith enfocado en cuadriceps",
+      "level": "principiante",
+      "description": "Procura mantener la pisada a la altura del hombro",
+      "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/57_Maquina_Smith.mp4",
+      "focusRoutine": "Cuadriceps",
+      "sets": 3,
+      "reps": "12 - 15",
+      "restTime": "1 - 1.5 minutos",
+      "machineId": "M043",
+      "machineName": "Banco de Press"
+    },
+    {
+      "id": "0202",
+      "name": "Prensa enfocada en cuadriceps",
+      "level": "principiante",
+      "description": "Procura mantener los pies a la altura de los hombros",
+      "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/22_Maquina_Sentadilla_Perfecta.mp4",
+      "focusRoutine": "Cuadriceps",
+      "sets": 3,
+      "reps": "12 - 15",
+      "restTime": "1 - 1.5 minutos",
+      "machineId": "M003",
+      "machineName": "Banco de Press"
+    },
+    {
+      "id": "0203",
+      "name": "Hack enfocado en cuadriceps",
+      "level": "principiante",
+      "description": "Postura de los pies a nivel del los hombros, no muy elevado ni abajo de la pisadera.",
+      "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/25_Maquina_Hack.mp4",
+      "focusRoutine": "Cuadriceps",
+      "sets": 3,
+      "reps": "12 - 15",
+      "restTime": "1 - 1.5 minutos",
+      "machineId": "M005",
+      "machineName": "Banco de Press"
+    },
+    {
+      "id": "0204",
+      "name": "Extencion de cuadriceps",
+      "level": "principiante",
+      "description": "Elevar lo mas posible con explosividad y descendencia lenta.",
+      "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/43_Máquina_De_Femoral_Sentado.mp4",
+      "focusRoutine": "Cuadriceps",
+      "sets": 4,
+      "reps": "12 - 15",
+      "restTime": "1 minuto",
+      "machineId": "M024",
+      "machineName": "Banco de Press"
+    }
+  ]

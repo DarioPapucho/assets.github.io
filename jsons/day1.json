@@ -1,0 +1,80 @@
+[
+    {
+        "id": "0001",
+        "machineId": "M014",
+        "name": "Press inclinado para pectoral alto video /40",
+        "level": "principiante",
+        "description": "enfoque de trabajo pecho alto",
+        "urlVideo": "https://www.youtube.com/embed/uMM5wnebtoc",
+        "focusRoutine": "Pecho alto",
+        "sets": 3,
+        "reps": "12 - 15",
+        "restTime": "1 - 1.5 minutos",
+        "machineName": "Banco de Press"
+    },
+    {
+        "id": "0002",
+        "machineId": "M016",
+        "name": "Press de banca para pecho medio",
+        "level": "principiante",
+        "description": "Enfoque en todo el pecho en especial pecho medio ",
+        "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/38_Maquina_De_Press_De_Banca.mp4",
+        "focusRoutine": "Pecho medio",
+        "sets": 3,
+        "reps": "12 - 15",
+        "restTime": "1 - 1.5 minutos",
+        "machineName": "Banco de Press"
+    },
+    {
+        "id": "0003",
+        "machineId": "M015",
+        "name": "press de banca para pecho bajo",
+        "level": "principiante",
+        "description": "Ejercicio enfocado en la parte inferior del pecho",
+        "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/39_Maquina_Press_De_Banca_Para_Pecho_Bajo.mp4",
+        "focusRoutine": "Pecho bajo",
+        "sets": 3,
+        "reps": "12 - 15",
+        "restTime": "1 - 1.5 minutos",
+        "machineName": "Banco de Press"
+    },
+    {
+        "id": "0004",
+        "machineId": "M020",
+        "name": "Peck deck para pecho",
+        "level": "principiante",
+        "description": "Ejercicio enfocado en la apertura del pectoral",
+        "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/34_Maquina_Peck_Deck.mp4",
+        "focusRoutine": "Precho y triceps",
+        "sets": 3,
+        "reps": "12 - 15",
+        "restTime": "1 - 1.5 minutos",
+        "machineName": "Banco de Press"
+    },
+    {
+        "id": "0005",
+        "machineId": "M012",
+        "name": "Máquina de fondos en máquina",
+        "level": "principiante",
+        "description": "Ejercicio donde se enfoca la parte del pecho bajo así mismo como tríceps",
+        "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/1_Maquina_De_Fondos_En_Maquina.mp4",
+        "focusRoutine": "Pecho y triceps",
+        "sets": 3,
+        "reps": "12 - 15",
+        "restTime": "1 - 1.5 minutos",
+        "machineName": "Banco de Press"
+    },
+    {
+        "id": "0006",
+        "machineId": "",
+        "name": "",
+        "level": "",
+        "description": "",
+        "urlVideo": "",
+        "focusRoutine": "",
+        "sets": 0,
+        "reps": "",
+        "restTime": "",
+        "machineName": ""
+    }
+]
