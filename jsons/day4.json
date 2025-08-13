@@ -1,6 +1,7 @@
 [
     {
         "id": "0301",
+        "machineId": "M002",
         "name": "Sentadilla perfecta",
         "level": "principiante",
         "description": "Pisada abierta con enfoque en direccion al lado de la maquina",
@@ -9,11 +10,11 @@
         "sets": 4,
         "reps": "12 - 15",
         "restTime": "1 - 1.5 minutos",
-        "machineId": "M002",
         "machineName": "Banco de Press"
     },
     {
         "id": "0302",
+        "machineId": "M025",
         "name": "Maquina de femoral echado",
         "level": "principiante",
         "description": "Acomodar la colchoneta para una buena contraccion del femoral.",
@@ -22,11 +23,11 @@
         "sets": 4,
         "reps": "10 - 15",
         "restTime": "1 - 1.5 minutos",
-        "machineId": "M025",
         "machineName": "Banco de Press"
     },
     {
         "id": "0303",
+        "machineId": "M024",
         "name": "Maquina de femoral sentado",
         "level": "principiante",
         "description": "Acomodar la colchoneta para los pies y presionando con fuerza el seguro.",
@@ -35,24 +36,11 @@
         "sets": 4,
         "reps": "10 - 15",
         "restTime": "1 - 1.5 minutos",
-        "machineId": "M024",
-        "machineName": "Banco de Press"
-    },
-    {
-        "id": "0304",
-        "name": "Sentadilla sumo",
-        "level": "principiante",
-        "description": "Posicion de los pies lo mas abierto posible realizando una curvatura en la espalda.",
-        "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/51_Maquina_De_Santadilla_Sumo.mp4",
-        "focusRoutine": "Fermoral y gluteo",
-        "sets": 4,
-        "reps": "10 - 15",
-        "restTime": "1 - 1.5 minutos",
-        "machineId": "M034",
         "machineName": "Banco de Press"
     },
     {
         "id": "0305",
+        "machineId": "M026",
         "name": "Ejercicio de aductores",
         "level": "principiante",
         "description": "Enfocado en los aductores haciendo presion de afuera hacia adentro.",
@@ -61,12 +49,12 @@
         "sets": 4,
         "reps": "20 - 25",
         "restTime": "1 minuto",
-        "machineId": "M026",
         "machineName": "Banco de Press"
     },
     {
         "id": "0306",
-        "name": "Ejercicio para pantorrillas",
+        "machineId": "M035",
+        "name": "Ejercicio para pantorrillas sentado",
         "level": "principiante",
         "description": "Enfoque enlas pantorrillas, elevacion con explosividad y descendencia lenta.",
         "urlVideo": "https://dariopapucho.github.io/assets.github.io/videos/52_Maquina_De_Pantorrilla_Con_La_Variante_Sentada.mp4",
@@ -74,11 +62,11 @@
         "sets": 4,
         "reps": "20 - 25",
         "restTime": "1 minuto",
-        "machineId": "M035",
         "machineName": "Banco de Press"
     },
     {
         "id": "0307",
+        "machineId": "M027",
         "name": "Hip thrust",
         "level": "principiante",
         "description": "Eleva la cadera con fuerza y descienda lentamente.",
@@ -87,11 +75,11 @@
         "sets": 4,
         "reps": "15 - 20",
         "restTime": "1.5 a 2 minutos",
-        "machineId": "M027",
         "machineName": "Banco de Press"
     },
     {
         "id": "0308",
+        "machineId": "M045",
         "name": "Patada de gluteo",
         "level": "principiante",
         "description": "Patear de forma recta para una mayor presion del gluteo.",
@@ -100,11 +88,11 @@
         "sets": 4,
         "reps": "12 - 15",
         "restTime": "1 minuto",
-        "machineId": "M045",
         "machineName": "Banco de Press"
     },
     {
         "id": "0309",
+        "machineId": "M026",
         "name": "Ejercicio de abductores",
         "level": "principiante",
         "description": "Hacer presion de adentro hacia afuera para enfatizar laterales de los gluteos.",
@@ -113,11 +101,11 @@
         "sets": 4,
         "reps": "15 - 25",
         "restTime": "1 minuto",
-        "machineId": "M026",
         "machineName": "Banco de Press"
     },
     {
         "id": "0310",
+        "machineId": "M039",
         "name": "Peso muerto",
         "level": "principiante",
         "description": "Mantener la espalda erguida y las rodillas semiinclinadas.",
@@ -126,7 +114,123 @@
         "sets": 4,
         "reps": "12 - 15",
         "restTime": "1 a 1.5 minutos",
-        "machineId": "M039",
         "machineName": "Banco de Press"
+    },
+    {
+        "id": "0311",
+        "machineId": "M006",
+        "name": "Abduccion de frente parada",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "25",
+        "focusRoutine": "Gluteo medio y gluteo menor",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para abduccion de frente"
+    },
+    {
+        "id": "0312",
+        "machineId": "M030",
+        "name": "Patada de gluteo lateral",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "47",
+        "focusRoutine": "Gluteo lateral",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para patada de gluteo lateral"
+    },
+    {
+        "id": "0313",
+        "machineId": "M031",
+        "name": "Patada de gluteo Parada",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "50",
+        "focusRoutine": "Gluteo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para patada de gluteo parado"
+    },
+    {
+        "id": "0314",
+        "machineId": "M045",
+        "name": "Patada de gluteo acostado",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "48",
+        "focusRoutine": "Gluteo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para patada de gluteo acostado"
+    },
+    {
+        "id": "0315",
+        "machineId": "M046",
+        "name": "Patada de gluteo semi-inclinado",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "49",
+        "focusRoutine": "Gluteo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para patada de gluteo semi-inclinado"
+    },
+    {
+        "id": "0316",
+        "machineId": "M036",
+        "name": "Femoral unilateral",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "54",
+        "focusRoutine": "Gluteo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para femoral unilateral"
+    },
+    {
+        "id": "0317",
+        "machineId": "M037",
+        "name": "Femoral semi-inclinado",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "56",
+        "focusRoutine": "Fermorales",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina de femorales semi-inclinado"
+    },
+    {
+        "id": "0318",
+        "machineId": "M039",
+        "name": "Peso muerto y bulgaras",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "59",
+        "focusRoutine": "Fermorales y gluteos",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina para peso muerto y bulgaras"
+    },
+    {
+        "id": "0319",
+        "machineId": "M033",
+        "name": "Bulgaras",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "53",
+        "focusRoutine": "Fermorales y gluteos",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 a 1.5 minutos",
+        "machineName": "Maquina de bulgaras"
     }
 ]

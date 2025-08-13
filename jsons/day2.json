@@ -167,5 +167,18 @@
         "reps": "12 - 15",
         "restTime": "1 min",
         "machineName": "Maquina de remo en T con soporte"
+    },
+    {
+        "id": "0114",
+        "machineId": "M013",
+        "name": "Predicador",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "41",
+        "focusRoutine": "Biceps braquial corta y larga",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 min",
+        "machineName": "Maquina para predicador"
     }
 ]

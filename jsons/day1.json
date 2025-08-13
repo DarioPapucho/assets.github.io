@@ -66,15 +66,54 @@
     },
     {
         "id": "0006",
-        "machineId": "",
-        "name": "",
-        "level": "",
+        "machineId": "M021",
+        "name": "Power Smith para pecho medio y bajo",
+        "level": "principiante",
         "description": "",
-        "urlVideo": "",
-        "focusRoutine": "",
-        "sets": 0,
-        "reps": "",
-        "restTime": "",
-        "machineName": ""
+        "urlVideo": "33",
+        "focusRoutine": "Pecho medio y pecho bajo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 minuto",
+        "machineName": "Power Smith"
+    },
+    {
+        "id": "0007",
+        "machineId": "M019",
+        "name": "Hammer para pecho alto",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "35",
+        "focusRoutine": "Pecho alto",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 minuto",
+        "machineName": "Hammer para pecho alto"
+    },
+    {
+        "id": "0008",
+        "machineId": "M018",
+        "name": "Hammer para pecho medio",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "36",
+        "focusRoutine": "Pecho medio",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 minuto",
+        "machineName": "Hammer para pecho medio"
+    },
+    {
+        "id": "0009",
+        "machineId": "M017",
+        "name": "Hammer para pecho bajo",
+        "level": "principiante",
+        "description": "",
+        "urlVideo": "37",
+        "focusRoutine": "Pecho bajo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 minuto",
+        "machineName": "Hammer para pecho bajo"
     }
 ]
