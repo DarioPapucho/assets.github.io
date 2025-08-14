@@ -2,35 +2,35 @@
     {
         "id": "0401",
         "machineId": "M001",
-        "name": "Elevacion de polea",
+        "name": "Elevación de polea",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio de elevación lateral en polea que trabaja específicamente el deltoides medio. Mantener una postura estable y elevar los brazos hasta la altura de los hombros con control.",
         "urlVideo": "5",
         "focusRoutine": "Hombros",
         "sets": 4,
         "reps": "12 - 15",
         "restTime": "40 segundos",
-        "machineName": "Polea de elevacion"
+        "machineName": "Polea de elevación"
     },
     {
         "id": "0402",
         "machineId": "M052",
         "name": "Hombros laterales",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio de aislamiento para el deltoides medio en máquina. Proporciona un movimiento controlado y seguro para desarrollar anchura y definición en los hombros.",
         "urlVideo": "15",
         "focusRoutine": "Hombros laterales",
         "sets": 4,
         "reps": "12 - 15",
         "restTime": "1 minuto",
-        "machineName": "Maquina para hombros laterales"
+        "machineName": "Máquina para hombros laterales"
     },
     {
         "id": "0403",
         "machineId": "M051",
-        "name": "Press militar en maquina",
+        "name": "Press militar en máquina",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio compuesto fundamental para el desarrollo de hombros. Trabaja principalmente el deltoides anterior y medio, proporcionando fuerza y masa muscular en la región del hombro.",
         "urlVideo": "16",
         "focusRoutine": "Hombro frontal y laterales",
         "sets": 4,
@@ -43,77 +43,64 @@
         "machineId": "M050",
         "name": "Crunch para abdomen",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio de flexión abdominal en máquina que proporciona resistencia controlada. Enfoca el trabajo en el recto abdominal con un movimiento seguro y efectivo.",
         "urlVideo": "17",
         "focusRoutine": "Abdomen",
         "sets": 4,
         "reps": "20 - 25",
         "restTime": "1 minuto",
-        "machineName": "Maquina de crunch para abdomen"
+        "machineName": "Máquina de crunch para abdomen"
     },
     {
         "id": "0405",
         "machineId": "M049",
         "name": "Crunch para abdomen alto",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio específico para la porción superior del recto abdominal. La máquina permite un rango de movimiento controlado enfocado en la parte alta del abdomen.",
         "urlVideo": "19",
         "focusRoutine": "Abdomen alto",
         "sets": 4,
         "reps": "20 - 25",
         "restTime": "1 minuto",
-        "machineName": "Maquina de crunch para abdomen alto"
+        "machineName": "Máquina de crunch para abdomen alto"
     },
     {
         "id": "0406",
         "machineId": "M048",
-        "name": "Abdominales en maquina",
+        "name": "Abdominales en máquina",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio tradicional de abdominales en máquina que proporciona soporte para la espalda mientras se trabaja intensamente el core y el recto abdominal.",
         "urlVideo": "19",
         "focusRoutine": "Abdomen",
         "sets": 4,
         "reps": "20 - 25",
         "restTime": "1 minuto",
-        "machineName": "Maquina tradicional de abdomen"
+        "machineName": "Máquina tradicional de abdomen"
     },
     {
         "id": "0407",
         "machineId": "M047",
-        "name": "Maquina de abdomen concentrado",
+        "name": "Máquina de abdomen concentrado",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio de aislamiento abdominal que permite una contracción concentrada y controlada del core, ideal para desarrollar fuerza y definición en la zona abdominal.",
         "urlVideo": "20",
         "focusRoutine": "Abdomen",
         "sets": 4,
         "reps": "20 - 25",
         "restTime": "1 minuto",
-        "machineName": "Maquina de abdomen concentrado"
+        "machineName": "Máquina de abdomen concentrado"
     },
     {
         "id": "0408",
         "machineId": "M022",
         "name": "Power Smith",
         "level": "principiante",
-        "description": "",
+        "description": "Ejercicio versátil en máquina Smith que permite trabajar hombros y pecho alto de forma segura. El sistema de rieles guiados proporciona estabilidad y control durante el movimiento.",
         "urlVideo": "32",
         "focusRoutine": "Hombros y pecho alto",
         "sets": 4,
         "reps": "12 - 15",
         "restTime": "1 minuto",
-        "machineName": "Power smith"
-    },
-    {
-        "id": "",
-        "machineId": "",
-        "name": "",
-        "level": "",
-        "description": "",
-        "urlVideo": "",
-        "focusRoutine": "",
-        "sets": 0,
-        "reps": "",
-        "restTime": "",
-        "machineName": ""
+        "machineName": "Power Smith"
     }
 ]

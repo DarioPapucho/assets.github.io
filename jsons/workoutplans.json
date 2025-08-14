@@ -5,28 +5,28 @@
       "focusRoutine": "Día 1 de entrenamiento de pectoral",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
-      "exercises": []
+      "exercises": "day1.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 2 de entrenamiento de Espalda y Biceps ",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
-      "exercises": []
+      "exercises": "day2.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 3 de entrenamiento para cruadriceps",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
-      "exercises": []
+      "exercises": "day3.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 4 de entrenamiento para Femoral y Gluteos",
       "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
-      "exercises": []
+      "exercises": "day4.json"
     }
   ]
 }
