@@ -2,10 +2,10 @@
     {
         "id": "0301",
         "machineId": "M002",
-        "name": "Sentadilla perfecta",
+        "name": "Ejercicio en maguina de 90º",
         "level": "principiante",
         "description": "Ejercicio de sentadilla con pisada amplia enfocado en glúteos y femorales. Mantener la posición orientada hacia el lado de la máquina para optimizar la activación muscular.",
-        "urlVideo": "21",
+        "urlVideo": "21.1",
         "focusRoutine": "Femorales y glúteos",
         "sets": 4,
         "reps": "12 - 15",
@@ -78,19 +78,6 @@
         "machineName": "Máquina de hip thrust"
     },
     {
-        "id": "0308",
-        "machineId": "M045",
-        "name": "Patada de glúteo",
-        "level": "principiante",
-        "description": "Ejercicio de aislamiento para glúteos en posición acostada. Realizar la patada de forma recta manteniendo la tensión constante para maximizar la activación del glúteo.",
-        "urlVideo": "48",
-        "focusRoutine": "Glúteos",
-        "sets": 4,
-        "reps": "12 - 15",
-        "restTime": "1 minuto",
-        "machineName": "Máquina patada de glúteo acostado"
-    },
-    {
         "id": "0309",
         "machineId": "M026",
         "name": "Ejercicio de abductores",
@@ -102,19 +89,6 @@
         "reps": "15 - 25",
         "restTime": "1 minuto",
         "machineName": "Máquina de abducción y aducción"
-    },
-    {
-        "id": "0310",
-        "machineId": "M039",
-        "name": "Peso muerto",
-        "level": "principiante",
-        "description": "Ejercicio compuesto que trabaja femorales y glúteos intensamente. Mantener la espalda recta y las rodillas ligeramente flexionadas durante todo el movimiento.",
-        "urlVideo": "59",
-        "focusRoutine": "Femorales y glúteos",
-        "sets": 4,
-        "reps": "12 - 15",
-        "restTime": "1 - 1.5 minutos",
-        "machineName": "Máquina para peso muerto y búlgaras"
     },
     {
         "id": "0311",
@@ -232,5 +206,18 @@
         "reps": "12 - 15",
         "restTime": "1 - 1.5 minutos",
         "machineName": "Máquina de búlgaras"
+    },
+    {
+        "id": "0320",
+        "machineId": "M040",
+        "name": "Sentadilla perfecta",
+        "level": "principiante",
+        "description": "Ejercicio de sentadilla con pisada amplia enfocado en glúteos y femorales. Mantener la posición orientada hacia el lado de la máquina para optimizar la activación muscular.",
+        "urlVideo": "21.2",
+        "focusRoutine": "Femorales y glúteos",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 - 1.5 minutos",
+        "machineName": "Maquina para sentadilla perfecta"
     }
 ]

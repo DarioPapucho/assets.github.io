@@ -143,19 +143,6 @@
         "machineName": "Máquina Sissy"
     },
     {
-        "id": "0213",
-        "machineId": "M043",
-        "name": "Ejercicio en máquina Smith",
-        "level": "principiante",
-        "description": "Ejercicio versátil en máquina Smith que permite trabajar cuádriceps, femorales y glúteos de manera segura y controlada, ideal para principiantes.",
-        "urlVideo": "43",
-        "focusRoutine": "Cuádriceps, femorales y glúteos",
-        "sets": 4,
-        "reps": "12 - 15",
-        "restTime": "1 - 1.5 minutos",
-        "machineName": "Máquina Smith"
-    },
-    {
         "id": "0214",
         "machineId": "M044",
         "name": "Sentadilla libre",
