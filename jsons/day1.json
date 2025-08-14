@@ -115,5 +115,18 @@
         "reps": "12 - 15",
         "restTime": "1 minuto",
         "machineName": "Hammer para pecho bajo"
+    },
+    {
+        "id": "0010",
+        "machineId": "M009",
+        "name": "Peck deck para pecho bajo",
+        "level": "principiante",
+        "description": "Ejercicio de aislamiento que se enfoca en la apertura del pectoral, proporcionando un estiramiento profundo y contracción completa.",
+        "urlVideo": "https://www.youtube.com/embed/ErJjtdrwScs",
+        "focusRoutine": "Pecho bajo",
+        "sets": 4,
+        "reps": "12 - 15",
+        "restTime": "1 minuto",
+        "machineName": "Peck Deck"
     }
 ]
