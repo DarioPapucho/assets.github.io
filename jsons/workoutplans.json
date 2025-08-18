@@ -3,35 +3,35 @@
     {
       "level": "principiante",
       "focusRoutine": "Día 1 de entrenamiento de pectoral",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "iconUrl": "https://www.lyfta.app/_next/image?url=https%3A%2F%2Flyfta.app%2Fimages%2Fexercises%2F45161101.png&w=640&q=80",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": "day1.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 2 de entrenamiento de Espalda y Biceps ",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "iconUrl": "https://www.lyfta.app/_next/image?url=https%3A%2F%2Flyfta.app%2Fimages%2Fexercises%2F43691101.png&w=3840&q=75",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": "day2.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 3 de entrenamiento para cruadriceps",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "iconUrl": "https://lyfta.app/images/exercises/43001101.png",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": "day3.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 4 de entrenamiento para Femoral y Gluteos",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "iconUrl": "https://www.lyfta.app/_next/image?url=https%3A%2F%2Flyfta.app%2Fimages%2Fexercises%2F02651101.png&w=640&q=80",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": "day4.json"
     },
     {
       "level": "principiante",
       "focusRoutine": "Día 5 de entrenamiento para Hombros y Abdomen",
-      "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-AV85D9Dt7JG9tnS4xGkhc2TNhDrIyUH1w&s",
+      "iconUrl": "https://www.lyfta.app/_next/image?url=https%3A%2F%2Flyfta.app%2Fimages%2Fexercises%2F40141101.png&w=640&q=80",
       "description": "Plan perfecto para personas que están comenzando su viaje fitness",
       "exercises": "day5.json"
     }
